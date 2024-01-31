@@ -1,8 +1,9 @@
 import { redirect } from "next/navigation"
 
-const Login = ()=>{
-    redirect('/i/flow/login')
+export default function Home(){
+    return(
+        <main>
+            로그인 창
+        </main>
+    )
 }
-
-
-export default Login;

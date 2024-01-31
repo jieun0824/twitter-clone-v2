@@ -1,11 +1,7 @@
 import Link from "next/link";
 import { TwitterBlack } from "../../../public/Icon/Icon";
 
-const Home=()=>{
-  const right = ''
-  const left = ''
-  const signup = ''
-  const login = ''
+export default function Home(){
 
   return(
     <div className="flex p-24 w-dvw h-dvh lg:items-center md:flex-col lg:flex-row lg:justify-center">
@@ -22,5 +18,3 @@ const Home=()=>{
   </div>
   )
 }
-
-export default Home;
