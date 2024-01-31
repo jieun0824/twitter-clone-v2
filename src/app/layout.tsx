@@ -11,13 +11,15 @@ export const metadata: Metadata = {
 
 //모든 페이지에 적용되는 레이아웃
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        </body>
     </html>
   );
 }
