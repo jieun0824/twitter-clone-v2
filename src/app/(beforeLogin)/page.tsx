@@ -13,7 +13,7 @@ export default function Home(){
         <p className="text-4xl font-bold mb-8 mt-12">지금 가입하세요.</p>
         <Link href='/i/flow/signup' className="text-white bg-sky-500 rounded-2xl p-2 w-72 h-10 hover:bg-sky-700">계정 만들기</Link>
         <p className="font-bold mb-5 mt-10">이미 트위터에 가입하셨나요?</p>
-        <Link href='/i/flow/login' className="text-sky-500 rounded-2xl border-2 p-2 w-72 h-10">로그인</Link>
+        <Link href='/login' className="text-sky-500 rounded-2xl border-2 p-2 w-72 h-10">로그인</Link>
     </div>
   </div>
   )

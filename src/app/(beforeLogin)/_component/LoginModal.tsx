@@ -11,7 +11,6 @@ export default function LoginModal() {
   const onChangePassword = () => {};
 
   return (
-
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40">
         <div className="bg-white relative top-5 rounded-lg flex flex-col">
           <div className="px-8 py-6 text-2xl font-bold">
